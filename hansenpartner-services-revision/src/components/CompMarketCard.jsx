@@ -17,14 +17,6 @@ export default function CompMarketCard() {
                     <h3 className="text-2xl font-semibold text-gray-900 dark:text-white font-dailyregular">Responsive</h3>
                     <p className="my-4 font-karlaregular text-gray-500">I am always available via phone, text, or email.</p>
                 </blockquote>
-                {/* Uncomment this section if you want to include the figcaption */}
-                {/* <figcaption className="flex items-center justify-center ">
-                    <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture"/>
-                    <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
-                        <div>Bonnie Green</div>
-                        <div className="text-sm text-gray-500 dark:text-gray-400">Developer at Open AI</div>
-                    </div>
-                </figcaption> */}
             </figure>
 
             <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-b text-zinc-400 md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
@@ -40,13 +32,8 @@ export default function CompMarketCard() {
                     <h3 class="text-2xl font-semibold text-gray-900 dark:text-white font-dailyregular">Syndication</h3>
                     <p class="my-4 font-karlaregular text-gray-500">I market your property locally, nationally, and internationally</p>
                 </blockquote>
-                {/* <figcaption class="flex items-center justify-center ">
-                    <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
-                        <div>Roberta Casas</div>
-                        <div class="text-sm text-gray-500 dark:text-gray-400">Lead designer at Dropbox</div>
-                    </div>
-                </figcaption>     */}
             </figure>
+
             <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-b text-zinc-400 md:rounded-es-lg md:border-b-0 md:border-e dark:bg-gray-800 dark:border-gray-700">
                 <blockquote class="max-w-2xl mx-auto mb-4 text-REyellow lg:mb-8 dark:text-gray-400 font-dailyregular">
                     <div className="flex justify-center mb-4"> {/* Added a flex container to center the SVG */}
@@ -58,14 +45,8 @@ export default function CompMarketCard() {
                     <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">Virtual Tour</h3>
                     <p class="my-4 font-karlaregular text-gray-500">Let's make your home stand out with a high quality virtual tour.</p>
                 </blockquote>
-                {/* <figcaption class="flex items-center justify-center ">
-                    <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="profile picture"/>
-                    <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
-                        <div>Jese Leos</div>
-                        <div class="text-sm text-gray-500 dark:text-gray-400">Software Engineer at Facebook</div>
-                    </div>
-                </figcaption>     */}
             </figure>
+
             <figure class="flex flex-col items-center justify-center p-8 text-center bg-white text-zinc-400 rounded-b-lg md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
                 <blockquote class="max-w-2xl mx-auto mb-4 text-REyellow lg:mb-8 dark:text-gray-400 font-dailyregular">
                     <div className="flex justify-center mb-4"> {/* Added a flex container to center the SVG */}
@@ -81,14 +62,26 @@ export default function CompMarketCard() {
                     <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">Photography</h3>
                     <p class="my-4 font-karlaregular text-gray-500">Beatiful, high-end photography is a central part of our marketing plan for your property.</p>
                 </blockquote>
-                {/* <figcaption class="flex items-center justify-center ">
-                    <img class="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="profile picture"/>
-                    <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
-                        <div>Joseph McFall</div>
-                        <div class="text-sm text-gray-500 dark:text-gray-400">CTO at Google</div>
-                    </div>
-                </figcaption>     */}
             </figure>
+
+     {/* <div className='m-6 flex flex-col md:flex-row justify-center'>
+        <div className="flex flex-col md:flex-row bg-black/90 border border-gray-200 shadow w-full md:w-1/2 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 m-2">
+          <img className="object-cover w-auto h-auto md:h-auto md:w-48" src={Page1} alt="Decor Guidance"/>
+          <div className="flex flex-col justify-between p-4 leading-normal">
+            <h5 className="mb-2 text-2xl font-dailyregular tracking-tight text-zinc-200">Decor Guidance</h5>
+            <p className="mb-3 font-normal text-zinc-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quae, officia at non quidem consequatur molestiae, impedit quod soluta delectus aut officiis explicabo voluptatum dolor? Saepe culpa amet cum beatae.</p>
+          </div>
+        </div>
+
+        <div className="flex flex-col md:flex-row-reverse bg-black/90 border border-gray-200 shadow w-full md:w-1/2 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 m-2">
+          <img className="object-cover w-auto h-auto md:h-auto md:w-48" src={Page2} alt="Decor Guidance"/>
+          <div className="flex flex-col justify-between p-4 leading-normal">
+            <h5 className="mb-2 text-2xl font-dailyregular tracking-tight text-zinc-200">Intentional Layout</h5>
+            <p className="mb-3 font-normal text-zinc-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quae, officia at non quidem consequatur molestiae, impedit quod soluta delectus aut officiis explicabo voluptatum dolor? Saepe culpa amet cum beatae.</p>
+          </div>
+        </div>
+      </div> */}
+
         </div>
   )
 }

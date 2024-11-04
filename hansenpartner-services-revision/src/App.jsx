@@ -6,6 +6,7 @@ import Searchbar from './components/Searchbar';
 import CompMarketPlan from './components/CompMarketPlan';
 import CompMarketCard from './components/CompMarketCard';
 import MyStrategicExp from './components/MyStagingcExp';
+import SellingProc from './components/SellingProc';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <CompMarketPlan/>
       <CompMarketCard/>
       <MyStrategicExp/>
+      <SellingProc/>
     </div>
   )
 }
