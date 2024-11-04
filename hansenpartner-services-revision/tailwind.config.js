@@ -9,12 +9,18 @@ export default {
     flowbite.content(),
   ],
   theme: {
+    // colors:{
+    //   'REyellow': '#a29648',
+    // },
     extend: {
       fontFamily: {
         dailyregular: ['regular'],
         karlaregular: ['karlaregular'],
 
-      }
+      },
+      colors:{
+        'REyellow': '#a29648',
+      },
     },
   },
   plugins: [
