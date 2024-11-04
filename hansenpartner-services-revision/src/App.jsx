@@ -7,6 +7,7 @@ import CompMarketPlan from './components/CompMarketPlan';
 import CompMarketCard from './components/CompMarketCard';
 import MyStrategicExp from './components/MyStagingcExp';
 import SellingProc from './components/SellingProc';
+import BuyingProc from './components/BuyingProc';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <CompMarketCard/>
       <MyStrategicExp/>
       <SellingProc/>
+      <BuyingProc/>
     </div>
   )
 }
