@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function CompMarketCard() {
   return (
-        <div class="grid mb-8 border text-zinc-400 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-white dark:bg-gray-800">
+        <div class="grid border text-zinc-400 rounded-lg shadow-sm dark:border-gray-700 md:grid-cols-2 bg-white dark:bg-gray-800">
             <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b text-zinc-400 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
                 <blockquote className="max-w-2xl mx-auto mb-4 text-REyellow lg:mb-8 dark:text-gray-400">
                     <div className="flex justify-center mb-4"> {/* Added a flex container to center the SVG */}
@@ -28,7 +28,7 @@ export default function CompMarketCard() {
             </figure>
 
             <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border-b text-zinc-400 md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
-                <blockquote class="max-w-2xl mx-auto mb-4 text-REyellow lg:mb-8 dark:text-gray-400">
+                <blockquote class="max-w-2xl mx-auto mb-4 text-REyellow dark:text-gray-400">
                     <div className="flex justify-center mb-4"> {/* Added a flex container to center the SVG */}
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-24 stroke-1">
                             <path 

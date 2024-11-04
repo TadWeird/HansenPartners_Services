@@ -4,9 +4,8 @@ import Navibar from './components/navibar';
 import Hero from './components/Hero';
 import Searchbar from './components/Searchbar';
 import CompMarketPlan from './components/CompMarketPlan';
-import { Flowbite } from 'flowbite-react';
-import { useEffect } from 'react';
 import CompMarketCard from './components/CompMarketCard';
+import MyStrategicExp from './components/MyStagingcExp';
 
 function App() {
   return (
@@ -16,6 +15,7 @@ function App() {
       <Searchbar/>
       <CompMarketPlan/>
       <CompMarketCard/>
+      <MyStrategicExp/>
     </div>
   )
 }
