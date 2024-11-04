@@ -63,25 +63,6 @@ export default function CompMarketCard() {
                     <p class="my-4 font-karlaregular text-gray-500">Beatiful, high-end photography is a central part of our marketing plan for your property.</p>
                 </blockquote>
             </figure>
-
-     {/* <div className='m-6 flex flex-col md:flex-row justify-center'>
-        <div className="flex flex-col md:flex-row bg-black/90 border border-gray-200 shadow w-full md:w-1/2 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 m-2">
-          <img className="object-cover w-auto h-auto md:h-auto md:w-48" src={Page1} alt="Decor Guidance"/>
-          <div className="flex flex-col justify-between p-4 leading-normal">
-            <h5 className="mb-2 text-2xl font-dailyregular tracking-tight text-zinc-200">Decor Guidance</h5>
-            <p className="mb-3 font-normal text-zinc-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quae, officia at non quidem consequatur molestiae, impedit quod soluta delectus aut officiis explicabo voluptatum dolor? Saepe culpa amet cum beatae.</p>
-          </div>
-        </div>
-
-        <div className="flex flex-col md:flex-row-reverse bg-black/90 border border-gray-200 shadow w-full md:w-1/2 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 m-2">
-          <img className="object-cover w-auto h-auto md:h-auto md:w-48" src={Page2} alt="Decor Guidance"/>
-          <div className="flex flex-col justify-between p-4 leading-normal">
-            <h5 className="mb-2 text-2xl font-dailyregular tracking-tight text-zinc-200">Intentional Layout</h5>
-            <p className="mb-3 font-normal text-zinc-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quae, officia at non quidem consequatur molestiae, impedit quod soluta delectus aut officiis explicabo voluptatum dolor? Saepe culpa amet cum beatae.</p>
-          </div>
-        </div>
-      </div> */}
-
         </div>
   )
 }

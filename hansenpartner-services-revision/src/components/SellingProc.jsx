@@ -9,7 +9,7 @@ import Page5 from '../assets/img/saleservice5.jpg';
 
 export default function SellingProc() {
   return (
-    <div className='bg-zinc-200'>
+    <div className='pb-20'>
         <div className="bg-black/90 relative">
             <div className="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
             <h1 className="font-dailyregular text-REyellow py-20 flex items-center justify-center relative sm:text-4xl text-2xl">The Selling Process</h1>

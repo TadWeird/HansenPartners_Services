@@ -9,6 +9,7 @@ import MyStrategicExp from './components/MyStagingcExp';
 import SellingProc from './components/SellingProc';
 import BuyingProc from './components/BuyingProc';
 import Showcase from './components/Showcase';
+import HomeMarket from './components/HomeMarket';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <SellingProc/>
       <BuyingProc/>
       <Showcase/>
+      <HomeMarket/>
     </div>
   )
 }

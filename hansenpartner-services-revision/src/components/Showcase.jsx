@@ -25,7 +25,7 @@ export default function() {
           <img className="w-full h-full object-contain" src={Page2} alt=""/>
         </div>
         <div className="flex flex-col items-center justify-center text-center p-6 w-full md:w-2/3 leading-normal">
-          <h5 className="font-dailyregular font-semibold text-REyellow py-4 sm:text-4xl md:text-4xl lg:text-5xl text-3xl">
+          <h5 className="font-dailyregular font-semibold text-REyellow py-4 sm:text-4xl md:text-4xl lg:text-4xl text-3xl">
             We Want To Create An Unforgettable Experience For You...
           </h5>
           <p className="font-karlaregular text-zinc-200 px-5 py-2 sm:text-lg md:text-xl lg:text-xl">
@@ -35,7 +35,7 @@ export default function() {
       </div>
       <div className="flex flex-col md:flex-row bg-black/90 border dark:border-gray-700">
         <div className="flex flex-col items-center justify-center text-center p-6 w-full md:w-2/3 leading-normal">
-          <h5 className="font-dailyregular font-semibold text-REyellow py-4 sm:text-4xl md:text-4xl lg:text-5xl text-3xl">
+          <h5 className="font-dailyregular font-semibold text-REyellow py-4 sm:text-4xl md:text-4xl lg:text-4xl text-3xl">
             The Hansen Partners Communications Tablet
           </h5>
           <div className="font-karlaregular text-zinc-200 px-5 py-2 sm:text-lg md:text-xl lg:text-xl">
