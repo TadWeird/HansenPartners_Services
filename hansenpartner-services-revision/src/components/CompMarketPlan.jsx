@@ -6,8 +6,8 @@ import Page3 from '../assets/img/page3.png';
 
 export default function CompMarketPlan() {
   return (
-    <div className="relative w-full bg-black/90 rounded-none sm:text-4xl text-4xl">
-        <h1 class="font-dailyregular text-REyellow py-20 flex items-center justify-center relative">Comprehensive Marketing Plan</h1>
+    <div className="relative w-full bg-black/90 rounded-none">
+        <h1 class="font-dailyregular text-REyellow py-20 flex items-center justify-center relative sm:text-4xl text-2xl">Comprehensive Marketing Plan</h1>
       <Carousel
         slideInterval={5000}
         indicators={false} // Disable built-in indicators to customize

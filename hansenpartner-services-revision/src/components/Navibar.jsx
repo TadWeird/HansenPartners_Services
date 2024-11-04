@@ -25,7 +25,7 @@ function Navibar() {
 
   return (
     <nav className={`bg-black/75 backdrop-blur-sm fixed z-10 w-full transition-transform duration-300 ${showNavbar ? 'translate-y-0' : '-translate-y-full'}`}>
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
+      <div className="w-screen flex flex-wrap items-center justify-center mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse sm:h-10">
           <img src={logo} className="h-4 pr-4" alt="Company Logo" />
         </a>

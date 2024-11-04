@@ -6,6 +6,7 @@ import Searchbar from './components/Searchbar';
 import CompMarketPlan from './components/CompMarketPlan';
 import { Flowbite } from 'flowbite-react';
 import { useEffect } from 'react';
+import CompMarketCard from './components/CompMarketCard';
 
 function App() {
   return (
@@ -14,90 +15,7 @@ function App() {
       <Hero/>
       <Searchbar/>
       <CompMarketPlan/>
-      {/* <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/> */}
+      <CompMarketCard/>
     </div>
   )
 }
