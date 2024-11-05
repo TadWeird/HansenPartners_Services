@@ -11,7 +11,7 @@ export default function SellingProc() {
             <div className="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
             <h1 className="font-dailyregular text-REyellow py-20 flex items-center justify-center relative sm:text-4xl text-2xl">The Buying Process</h1>
         </div>
-        <div className="m-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="m-3 grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Card 1 */}
             <div className="flex flex-col md:flex-row bg-black/90 border border-gray-200 shadow dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <div className="w-full md:w-1/3">

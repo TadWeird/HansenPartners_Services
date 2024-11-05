@@ -10,6 +10,8 @@ import SellingProc from './components/SellingProc';
 import BuyingProc from './components/BuyingProc';
 import Showcase from './components/Showcase';
 import HomeMarket from './components/HomeMarket';
+import Partners from './components/Partners';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
       <BuyingProc/>
       <Showcase/>
       <HomeMarket/>
+      <Partners/>
+      <Footer/>
     </div>
   )
 }

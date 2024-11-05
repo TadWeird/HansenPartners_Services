@@ -15,7 +15,6 @@ export default function HomeMarket() {
                 <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border border-gray-200  md: dark:bg-gray-800 dark:border-gray-700">
                     <blockquote className="max-w-2xl mx-auto mb-4 text-REyellow dark:text-gray-400">
                         <div className="flex justify-center mb-4">
-                            
                         </div>
                         <h3 className="text-2xl font-semibold text-gray-900 dark:text-white font-dailyregular">Local Exposure</h3>
                         <p className="my-4 font-karlaregular text-gray-500">Through our partnership with Nextdoor, the private online social network now used in over 80% of U.S. neighborhoods and virtually all Bay Area neighborhoods, we make sure your home receives targeted local exposure. When you list your home with Hansen Partners it will automatically appear on Nextdoor in your neighborhood.</p>
