@@ -12,7 +12,7 @@ export default function Partners() {
                     We're GLOBAL
                     </h5>
                     <p className="font-karlaregular text-zinc-200 px-5 py-2 text-base sm:text-lg md:text-lg lg:text-xl">
-                    Through our international affiliations, we have a strong presence in over 50 countries. Our luxury listings are sent to prominent international real estate sites, reaching over 70 million potential buyers and investors worldwide through our relationships with Leading Real Estate Companies of the World, Luxury Portfolio International, and Who's Who In Luxury Real Estate. We also have several well-positioned affiliate offices in China, providing our clients with access to buyers in Hong Kong, Shanghai, and Beijing. 
+                        Through our international affiliations, we have a strong presence in over 50 countries. Our luxury listings are sent to prominent international real estate sites, reaching over 70 million potential buyers and investors worldwide through our relationships with Leading Real Estate Companies of the World, Luxury Portfolio International, and Who's Who In Luxury Real Estate. We also have several well-positioned affiliate offices in China, providing our clients with access to buyers in Hong Kong, Shanghai, and Beijing. 
                     </p>
                 </div>
                 <div className="flex items-center justify-center w-full md:w-1/3">
@@ -31,7 +31,7 @@ export default function Partners() {
                     </blockquote>
                 </figure>
         </div>
-        <div className="relative border-gray-200">
+        <div className="relative border-gray-200 py-10">
             <div className="absolute inset-0 backdrop-blur-sm"></div>
             <img className="w-[700px] h-auto object-contain relative mx-auto" src={REcorp} alt=""/>
         </div>
